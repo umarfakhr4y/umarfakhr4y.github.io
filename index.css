@@ -1,0 +1,159 @@
+.parallax-one {
+    background: #000;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.8)),
+        url(material/saya.JPG);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.parallax-two {
+    background: #fff;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.parallax-three {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.8)),
+        url(material/saya_project.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    
+    /* display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center; */
+}
+
+.parallax-four {
+    background: #000;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.special-card {
+    /* create a custom class so you 
+       do not run into specificity issues 
+       against bootstraps styles
+       which tends to work better than using !important 
+       (future you will thank you later)*/
+    
+      background-color: rgba(245, 245, 245, 1);
+      opacity: .4;
+    }
+
+body,
+html {
+    height: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.tengah-bgt {
+
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 49%;
+    /* margin-top: 40px; */
+    /* margin-left: -200px; */
+
+}
+ul {
+    list-style-type: none;
+}
+
+.tengah-bgt-dua {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+    /* position: fixed; left: 0; right: 0; top: auto; bottom:0; */
+    /* margin-top: 40px; */
+    /* margin-left: -200px; */
+
+}
+
+.jumbotron {
+    padding-top: 2rem;
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1C2331 !important;
+    }
+}
+
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.second-content {
+    background-color: #cccccc;
+    position: relative
+}
+
+.second-content svg:first-child,
+.second-content svg:last-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.second-content svg:last-child {
+    top: 500;
+    bottom: 0;
+}
