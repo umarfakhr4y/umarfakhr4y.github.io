@@ -1,319 +1,280 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
 
 <head>
-    <title>Umar Fakhriy</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!--- basic page needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title>Kards</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor.css">
+
+	<!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+	<!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
 </head>
 
-<body>
-
-    <!-- NAVBAR -->
-
-    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-        <div class="container">
-
-            <!-- Brand -->
-            <a class="navbar-brand" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
-                <strong>Umar Fakhriy</strong>
-            </a>
-
-            <!-- Collapse -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <!-- Left -->
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#HomePageNih">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#aboutPageNih">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projectPageNih">Project</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contatctPageNih">Contact</a>
-                    </li>
-                    <button class="ml-2 btn btn-outline-primary" type="submit">Download Resume</button>
-
-                </ul>
-
-            </div>
-
-        </div>
-    </nav>
-
-    <section id="HomePageNih" class="jumbotron parallax-one text-center">
-        <h1 id="words" class="tengah-bgt text-white align-bottom">Hi!</h1>
-
-        <div class="second-content tengah-bgt-wave">
-            <!-- <svg class="mr-0 ml-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#ffffff" fill-opacity="1"
-                    d="M0,192L17.1,186.7C34.3,181,69,171,103,170.7C137.1,171,171,181,206,202.7C240,224,274,256,309,261.3C342.9,267,377,245,411,224C445.7,203,480,181,514,144C548.6,107,583,53,617,32C651.4,11,686,21,720,64C754.3,107,789,181,823,213.3C857.1,245,891,235,926,192C960,149,994,75,1029,42.7C1062.9,11,1097,21,1131,42.7C1165.7,64,1200,96,1234,90.7C1268.6,85,1303,43,1337,32C1371.4,21,1406,43,1423,53.3L1440,64L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z">
-                </path>
-            </svg> -->
-        </div>
-    </section>
-
-    <section id="aboutPageNih" class="jumbotron parallax-two">
-        <div class="container" data-aos="fade-up">
-            <div class="section-title mt-4">
-                <br>
-                <h2 class="text-center">About</h2>
-                <p class="mt-3 mb-5 text-center">Hi There, I'm a 2002's boy who lived in Jakarta,
-                    Indonesia. I'm a Web Developer, Video Editor, Music Enthusiast</p>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4">
-                    <img src="material/saya-dua.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-8 pt-4 pt-lg-0 content">
-                    <h1 style="letter-spacing: 4px;">Umar</h1>
-                    <h1 style="letter-spacing: 10px;">Fakhriy</h1>
-                    <h1 style="letter-spacing: 15px;">Setijono</h1>
-                    <div class="row mt-4">
-                        <div class="col-lg-6">
-                            <ul>
-                                <li><i class="bi bi-rounded-right"></i> <strong>Birthday:</strong> 22 November 2002</li>
-
-                                <li><i class="bi bi-rounded-right"></i> <strong>Phone:</strong> +62 819 1841 1690</li>
-                                <li><i class="bi bi-rounded-right"></i> <strong>City:</strong> Jakarta, Indonesia</li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul>
-                                <li><i class="bi bi-rounded-right"></i> <strong>Age:</strong> 19</li>
-                                <li><i class="bi bi-rounded-right"></i> <strong>Freelance:</strong> Available</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <p class="align-justify ">
-                        Im a 3rd semester student at Jakarta State University, graduated from SMK Madinatul Quran
-                        majoring in Software Engineering. I can work with groups very well, can work under pressure, and
-                        of course I am very happy to work with you
-                    </p>
-                    <br>
-                    <br>
-                    <br>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="projectPageNih" class="jumbotron parallax-three text-center">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="section-title mt-4">
-                    <div class="card mb-3" style="background-color: rgba(245, 245, 245, 0.2); ">
-                        <div class="card-body">
-                            <h2 class="text-center text-white">Project</h2>
-                            <hr>
-                            <p class="card-text text-white">Here are some projects that I have completed in the past 3
-                                years
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm 12 mb-4">
-                    <div class="card" style="background-color: rgba(245, 245, 245, 0.2); ">
-                        <div class="card-body mb-3">
-                            <div class="row justify-content-center gap-4">
-                                <div class="card" style="width: 18rem; height: 25rem;">
-                                    <img src="material/Project_1.jpg" class="card-img-top mt-2" alt="">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Insting 2022</h5>
-                                        <p class="card-text">I served as the head of the documentation division at this
-                                            event</em></p>
-                                        <a href="#" class="btn btn-primary">More Details</a>
-                                    </div>
-                                </div>
-                                <div class="card" style="width: 18rem; height: 25rem;">
-                                    <img src="material/Project_2.jpg.png" class="card-img-top mt-2" alt="">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Operating and Making Overlay For Zoom</h5>
-                                        <p class="card-text">I can also Control Online Meeting for events</em></p>
-                                        <a href="#" class="btn btn-primary">More Details</a>
-                                    </div>
-                                </div>
-                                <div class="card" style="width: 18rem; height: 25rem;">
-                                    <img src="material/Project_3.jpg" class="card-img-top mt-2" alt="">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Making Android App</h5>
-                                        <p class="card-text"></em>I have also made an android application</p>
-                                        <a href="#" class="btn btn-primary">More Details</a>
-                                    </div>
-                                </div>
-                                <div class="card" style="width: 18rem; height: 25rem;">
-                                    <img src="material/Project_4.jpg.png" class="card-img-top mt-2" alt="">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Video Editing</h5>
-                                        <p class="card-text">I can also operate editing software reliably</em></p>
-                                        <a href="#" class="btn btn-primary">More Details</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="contatctPageNih" class="jumbotron parallax-two">
-        <div class="container" data-aos="fade-up">
-            <div class="section-title mt-4">
-                <br>
-                <h2 class="text-center">Contact Me</h2>
-                <br>
-                <br>
-            </div>
-
-            <div class="row mt-5">
-
-                <div class="col-lg-4">
-                    <div class="info">
-                        <div class="address">
-                            <i class="bi bi-geo-alt"></i>
-                            <h4>Location:</h4>
-                            <p>Jl Pondok Kopi, Jakarta Timur, Indonesia</p>
-                        </div>
-
-                        <div class="phone">
-                            <i class="bi bi-phone"></i>
-                            <h4>Call:</h4>
-                            <p>+62 819 1841 1690</p>
-                        </div>
-                        <div class="email">
-                            <i class="bi bi-envelope"></i>
-                            <h4>Email:</h4>
-                            <p>umarfakhr1y@gmail.com</p>
-                        </div>
+<body id="top">
 
 
-                    </div>
+	<!-- intro section
+   ================================================== -->
+	<section id="intro">
 
-                </div>
+		<div class="intro-overlay"></div>
 
-                <div class="col-lg-8 mt-5 mt-lg-0">
+		<div class="intro-content">
+			<div class="row">
 
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                    required>
-                            </div>
-                            <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="form-control" name="email" id="email"
-                                    placeholder="Your Email" required>
-                            </div>
-                        </div>
-                        <div class="form-group mt-3">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                                required>
-                        </div>
-                        <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message"
-                                required></textarea>
-                        </div>
-                        <br>
-                        <button type="button" class="btn btn-primary">Send</button>
-                    </form>
+				<div class="col-twelve">
 
-                </div>
+					<h5>HI</h5>
+					<h1>I'm Umar Fakhriy.</h1>
 
-            </div>
+					<p class="intro-position">
+						<span>MObile Developer</span>
+						<span>Web Developer</span>
+					</p>
 
-        </div>
-    </section>
+					<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
 
-    <footer class="bg-light text-center text-lg-start">
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          ©Umar Fakhriy
-          
-        </div>
-        <!-- Copyright -->
-      </footer>
+				</div>
+
+			</div>
+		</div> <!-- /intro-content -->
+
+		<ul class="intro-social">
+			<li><a href="https://www.facebook.com/umar.fakhry.54/"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="https://www.instagram.com/umarfakhriy/"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/umarfakhriy/"><i class="fa fa-instagram"></i></a></li>
+		</ul> <!-- /intro-social -->
+
+	</section> <!-- /intro -->
 
 
-    <!-- <div class="parallax img-fluid">
+	<!-- about section
+   ================================================== -->
+	<section id="about">
 
-      </div>
-      <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-        <h3 style="text-align:center;">Parallax Demo</h3>
-        <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
-      </div> -->
+		<div class="row section-intro">
+			<div class="col-twelve">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script type="text/javascript">
+				<h1>About Me</h1>
 
-        (function () {
-            var firstsec = document.getElementById('HomePageNih');
-            var secondsec = document.getElementById('aboutPageNih');
-            var lastScrollTop = 0;
-            window.onscroll = function () {
-                var st = window.pageYOffset || document.documentElement.scrollTop;
-                if (st > lastScrollTop) {
-                    secondsec.scrollIntoView({ behavior: "smooth" });
-                } else {
-                    firstsec.scrollIntoView({ behavior: "smooth" });
-                }
-                lastScrollTop = st <= 0 ? 0 : st;
-            }
-            var prevScrollpos = window.pageYOffset;
-            window.onscroll = function () {
-                var currentScrollPos = window.pageYOffset;
-                if (prevScrollpos > currentScrollPos) {
-                    document.getElementById("navbar").style.top = "0";
-                } else {
-                    document.getElementById("navbar").style.top = "-50px";
-                }
-                prevScrollpos = currentScrollPos;
-            }
-            var words = ["Hello", "Halo", "Hola", "こんにちは", "안녕하세요", "أهلا"],
-                i = 0;
-            setInterval(function () {
-                $('#words').fadeOut(function () {
-                    $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
-                });
-            }, 2000)
-        })();
-    </script>
+				<div class="intro-info">
+
+					<img src="images/profile-pic.jpg" alt="Profile Picture">
+
+					<p class="lead">Undergraduate student of Information Systems and Technology at Universitas Negeri
+						Jakarta (UNJ) with a keen interest in Mobile and Web Development. I possess skills in mobile
+						application development,
+						particularly in Flutter, and also in specific aspects of web development, including both
+						frontend and backend.</p>
+				</div>
+
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row about-content">
+
+			<div class="col-six tab-full">
+
+				<h3>Profile</h3>
+				<ul class="info-list">
+					<li>
+						<strong>Fullname:</strong>
+						<span>Umar Fakhriy Setijono</span>
+					</li>
+					<li>
+						<strong>Birth Date:</strong>
+						<span>November 22, 2002</span>
+					</li>
+					<li>
+						<strong>Job:</strong>
+						<span>Freelancer, Mobile Developer, Frontend & Backend Developer</span>
+					</li>
+					<li>
+						<strong>Website:</strong>
+						<span><a href="https://umarfakhr4y.github.io">www.umarfakhr4y.github.io</a></span>
+					</li>
+					<li>
+						<strong>Email:</strong>
+						<span>umarfakhr4y@gmail.com</span>
+					</li>
+
+				</ul> <!-- /info-list -->
+
+			</div>
+
+			<div class="col-six tab-full">
+
+				<h3>Skills</h3>
+
+				<ul class="skill-bars">
+					<li>
+						<div class="progress percent80"><span>80%</span></div>
+						<strong>Flutter / Dart</strong>
+					</li>
+					<li>
+						<div class="progress percent85"><span>85%</span></div>
+						<strong>HTML</strong>
+					</li>
+					<li>
+						<div class="progress percent80"><span>80%</span></div>
+						<strong>CSS / Bootstrap</strong>
+					</li>
+					<li>
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>Laravel</strong>
+					</li>
+					<li>
+
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>PHP</strong>
+					</li>
+
+				</ul> <!-- /skill-bars -->
+
+			</div>
+
+		</div>
+
+		<div class="row button-section">
+			<div class="col-twelve">
+				<a href="https://drive.google.com/file/d/1RnpErEcTP6avY0Seo72o_C9MA-EHyUw5/view?usp=sharing"
+					title="Download CV" class="button button-primary">Download CV</a>
+			</div>
+		</div>
+
+	</section> <!-- /process-->
+
+	<!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Contact</h5>
+				<h1>I'd Love To Hear From You.</h1>
+
+				<p class="lead">Let's Work Together, Contact me at</p>
+
+			</div>
+		</div> <!-- /section-intro -->
+
+
+
+
+		<div class="row contact-info">
+
+			<div class="col-four tab-full">
+
+				<div class="icon">
+					<i class="icon-pin"></i>
+				</div>
+
+				<h5>Where to find me</h5>
+
+				<p>
+					Pondok Kopi<br>
+					Jakarta Timur<br>
+					Indonesia
+				</p>
+
+			</div>
+
+			<div class="col-four tab-full collapse">
+
+				<div class="icon">
+					<i class="icon-mail"></i>
+				</div>
+
+				<h5>Email Me At</h5>
+
+				<p>umarfakhr4y@gmail.com<br>
+				</p>
+
+			</div>
+
+			<div class="col-four tab-full">
+
+				<div class="icon">
+					<i class="icon-phone"></i>
+				</div>
+
+				<h5>Call Me At</h5>
+
+				<p>Phone: (+62) 819 1841 1690<br>
+				</p>
+
+			</div>
+
+		</div> <!-- /contact-info -->
+
+	</section> <!-- /contact -->
+
+
+	<!-- footer
+   ================================================== -->
+
+	<footer>
+		<div class="row">
+
+			<div class="col-six tab-full pull-right social">
+
+				<ul class="footer-social">
+					<li><a href="https://www.facebook.com/umar.fakhry.54/"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://www.instagram.com/umarfakhriy/"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/umarfakhriy/"><i class="fa fa-instagram"></i></a></li>
+				</ul>
+
+			</div>
+
+			<div class="col-six tab-full">
+				<div class="copyright">
+					<span>© Copyright Kards 2016.</span>
+					<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>
+				</div>
+			</div>
+
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+			</div>
+
+		</div> <!-- /row -->
+	</footer>
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+
 </body>
 
 </html>
