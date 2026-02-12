@@ -399,7 +399,7 @@ textarea {
 	background: #FFF;
 	padding: 20px;
 	width: auto;
-	max-width: 700px; /* Lebar window */
+	max-width: 1200px; /* Lebar window */
 	margin: 20px auto;
 	transition: 1s;
 	border-radius: 4px;

@@ -1,0 +1,49 @@
+@import url("fonts.css");
+@import url("font-awesome/css/font-awesome.min.css");
+@import url("micons/micons.css");
+
+/* Container utama untuk membagi dua kolom */
+.modal-flex-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+/* Kolom Kiri (Gambar) */
+.modal-left {
+    flex: 1.2; /* Sedikit lebih lebar untuk gambar */
+    min-width: 250px;
+}
+
+/* Kolom Kanan (Teks) */
+.modal-right {
+    flex: 1;
+    min-width: 250px;
+}
+
+/* Tambahan styling agar rapi */
+.img-caption {
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.project-info-mini {
+    background: #fdfdfd;
+    padding: 10px;
+    border-left: 3px solid #11abb0; /* Warna aksen sesuai selera */
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+/* Responsif untuk HP: tumpuk ke bawah jika layar kecil */
+@media screen and (max-width: 768px) {
+    .modal-flex-container {
+        flex-direction: column;
+    }
+    .modal-left, .modal-right {
+        width: 100%;
+    }
+}
