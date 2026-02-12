@@ -391,6 +391,47 @@ textarea {
  *
  * ------------------------------------------------------------------- 
  */
+
+ /* Modal Popup */
+ /* Styling sederhana untuk Modal */
+.white-popup {
+	position: relative;
+	background: #FFF;
+	padding: 20px;
+	width: auto;
+	max-width: 700px; /* Lebar window */
+	margin: 20px auto;
+	transition: 1s;
+	border-radius: 4px;
+  }
+  
+  /* Biar bisa scroll kalau konten kepanjangan */
+  .mfp-wrap {
+	overflow-y: auto !important;
+  }
+  
+  .description-box {
+	padding: 2rem 0;
+  }
+  
+  .link-box {
+	padding: 1rem;
+	background: #f2f2f2;
+	text-align: right;
+  }
+
+  /* CSS untuk menengahkan item portofolio */
+.flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Ini yang membuat item ke-4 jadi di tengah */
+}
+
+/* Opsional: Memastikan margin tetap rapi di mobile */
+.flex-center .col-four {
+    float: none; /* Menghapus float bawaan template agar flexbox bekerja maksimal */
+}
+
 .row {
 	width: 94%;
 	max-width: 1140px;
